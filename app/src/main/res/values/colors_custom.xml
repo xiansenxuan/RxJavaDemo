@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="titlebar_bg">@color/base_white</color> <!-- 顶部标题栏背景色 -->
+
+    <color name="base_blue">#4684BE</color> <!-- 全局蓝色 -->
+    <color name="base_blue_light">#B2C5E0</color> <!-- 全局蓝色 -->
+    <color name="base_gray">#9B9B9B</color> <!-- 全局灰色 -->
+    <color name="base_green">#23A859</color> <!-- 全局灰色 -->
+    <color name="base_orange">#C67A3D</color> <!-- 全局灰色 -->
+
+    <color name="bg_gray">#E5EAEE</color> <!-- 底色 -->
+    <color name="bg_status">#4684BE</color> <!-- 底色 -->
+
+    <color name="normal_button">#4684BE</color> <!-- 正常背景色 -->
+    <color name="pressed_button">#804684BE</color> <!-- 按下背景色 -->
+    <color name="focused_button">#804684BE</color> <!-- 焦点背景色 -->
+    <color name="disable_button">#eeeeee</color> <!-- 不可点击背景色 -->
+    <color name="disable_gray">#9A9999</color>
+
+    <color name="point_green">#23A859</color>
+    <color name="point_red">#D9453A</color>
+    <color name="point_orange">#C67A3D</color>
+    <color name="transparent">#00000000</color> <!-- 透明 -->
+
+    <color name="base_black_tran">#40000000</color> <!-- 全局透明 -->
+    <color name="base_black">#212121</color> <!-- 全局黑色 -->
+
+    <color name="base_red">#EA4335</color> <!-- 全局红色 -->
+    <color name="base_yellow">#FBBC05</color> <!-- 全局黄色 -->
+    <color name="base_white">#FFFFFF</color> <!-- 全局白色 -->
+
+    <color name="disable_blue">#a1c2fa</color> <!-- 未选中蓝色 -->
+
+    <color name="title_gray">#969696</color> <!-- 标签灰色 -->
+
+    <color name="trans_white">#90FFFFFF</color> <!-- 透明白 -->
+
+    <color name="hint_gray">#bdbdbd</color> <!-- hint灰色字体 -->
+
+    <color name="base_line">#eeeeee</color> <!-- 全局分割线 -->
+
+    <color name="base_line_gary">#dddddd</color> <!-- 竖直分割线 -->
+    <color name="box_gray">#d5d5d5</color> <!-- 灰色方框 -->
+    <color name="box_green">#34A853</color> <!-- 绿色方框 -->
+
+    <color name="im_gray">#F7F7F7</color> <!-- 聊天灰色方框 -->
+
+    <color name="checked_true">#4285F4</color> <!-- checkbox选中颜色 -->
+    <color name="checked_false">#333333</color> <!-- checkbox选中颜色 -->
+
+    <color name="processing">#BDD3F7</color>
+    <color name="extension">#FEC2BF</color>
+    <color name="finish">#98EBEC</color>
+
+    <color name="round_0">#5e97f6</color> <!-- 0 -->
+    <color name="round_1">#5c6bc0</color> <!-- 1 -->
+    <color name="round_2">#9a89b9</color> <!-- 2 -->
+    <color name="round_3">#78c06e</color> <!-- 3 -->
+    <color name="round_4">#f65e8d</color> <!-- 4 -->
+    <color name="round_5">#ff943e</color> <!-- 5 -->
+    <color name="round_6">#c89f86</color> <!-- 6 -->
+    <color name="round_7">#dc5444</color> <!-- 7 -->
+    <color name="round_8">#1ba564</color> <!-- 8 -->
+    <color name="round_9">#b2cee6</color> <!-- 9 -->
+
+</resources>
