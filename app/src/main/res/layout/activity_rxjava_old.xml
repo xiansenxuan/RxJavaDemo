@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.xuan.rxjava.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_just"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="just" />
+
+        <TextView
+            android:id="@+id/tv_fromCallable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_toLeftOf="@+id/tv_publishSubject"
+            android:layout_toStartOf="@+id/tv_publishSubject"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="fromCallable" />
+
+        <TextView
+            android:id="@+id/tv_publishSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="publishSubject" />
+
+
+        <TextView
+            android:id="@+id/tv_map_debounce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_just"
+            android:layout_marginTop="24dp"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="map debounce" />
+
+
+        <TextView
+            android:id="@+id/tv_map1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_map_debounce"
+            android:layout_toLeftOf="@+id/tv_publishSubject"
+            android:layout_toStartOf="@+id/tv_publishSubject"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="map1" />
+
+        <TextView
+            android:id="@+id/tv_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_map1"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_toEndOf="@+id/tv_map1"
+            android:layout_toRightOf="@+id/tv_map1"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="from" />
+
+        <TextView
+            android:id="@+id/tv_bitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/tv_flatMap1"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="bitmap" />
+
+        <TextView
+            android:id="@+id/tv_flatMap1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tv_fromCallable"
+            android:layout_alignRight="@+id/tv_fromCallable"
+            android:layout_alignTop="@+id/tv_flatMap2"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="flatMap1" />
+
+
+        <TextView
+            android:id="@+id/tv_flatMap2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tv_from"
+            android:layout_alignRight="@+id/tv_from"
+            android:layout_below="@+id/tv_from"
+            android:layout_marginTop="41dp"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="flatMap2" />
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="timer" />
+
+        <TextView
+            android:id="@+id/tv_combineLatest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_fromCallable"
+            android:layout_alignStart="@+id/tv_fromCallable"
+            android:layout_centerVertical="true"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="combineLatest" />
+
+        <TextView
+            android:id="@+id/tv_behaviorSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_timer"
+            android:layout_marginTop="32dp"
+            android:background="@color/base_blue"
+            android:padding="16dp"
+            android:text="BehaviorSubject" />
+
+    </RelativeLayout>
+
+</LinearLayout>
