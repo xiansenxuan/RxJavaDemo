@@ -1,5 +1,5 @@
 # RxJavaDemo
 
-RXJAVAÀı×Ó
-RXBUSÀı×Ó
-eventbusÀı×Ó
+RxJava ä¾‹å­
+RxBus ä¾‹å­
+eventbus ä¾‹å­
