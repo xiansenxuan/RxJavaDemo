@@ -10,28 +10,17 @@
     tools:context="com.xuan.rxjava.MainActivity">
 
     <TextView
-        android:id="@+id/tv_send"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="44dp"
-        android:layout_marginStart="44dp"
-        android:background="@color/base_blue"
-        android:padding="16dp"
-        android:text="发送事件" />
-
-    <TextView
         android:id="@+id/tv_receiver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/base_blue"
         android:padding="16dp"
-        android:text="接收的地方"
-        android:layout_below="@+id/tv_send"
-        android:layout_alignLeft="@+id/tv_send"
-        android:layout_alignStart="@+id/tv_send"
-        android:layout_marginTop="55dp" />
+        android:text="接收事件"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="200dp" />
 
 </RelativeLayout>

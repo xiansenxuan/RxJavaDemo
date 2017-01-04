@@ -19,6 +19,7 @@
         android:layout_marginLeft="44dp"
         android:layout_marginStart="44dp"
         android:background="@color/base_blue"
+        android:textColor="#23A859"
         android:padding="16dp"
         android:text="rxjava" />
 
@@ -33,5 +34,32 @@
         android:layout_marginRight="58dp"
         android:background="@color/base_blue"
         android:padding="16dp"
+        android:textColor="#C67A3D"
         android:text="rxbus" />
+
+    <TextView
+        android:id="@+id/tv_eventbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/base_blue"
+        android:padding="16dp"
+        android:textColor="#C67A3D"
+        android:text="eventbus"
+        android:layout_below="@+id/tv_rxjava"
+        android:layout_alignLeft="@+id/tv_rxjava"
+        android:layout_alignStart="@+id/tv_rxjava"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:id="@+id/tv_eventbus_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/base_blue"
+        android:padding="16dp"
+        android:textColor="#C67A3D"
+        android:text="eventbus_fragment"
+        android:layout_below="@+id/tv_rxjava"
+        android:layout_alignLeft="@+id/tv_rxjava"
+        android:layout_alignStart="@+id/tv_rxjava"
+        android:layout_marginTop="41dp" />
 </RelativeLayout>

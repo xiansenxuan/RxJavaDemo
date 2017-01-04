@@ -32,4 +32,8 @@ dependencies {
     compile 'com.squareup.okio:okio:1.6.0'
     compile 'io.reactivex:rxandroid:1.1.0'
     compile 'io.reactivex:rxjava:1.1.0'
+
+    compile 'com.xuan.recyclerview:XuanRecyclerView:1.0'
+    compile 'com.aurelhubert:ahbottomnavigation:1.1.0'
+    compile 'org.greenrobot:eventbus:3.0.0'
 }

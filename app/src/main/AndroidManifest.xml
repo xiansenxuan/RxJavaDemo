@@ -22,6 +22,12 @@
 
         </activity>
         <activity android:name=".ReceiverActivity">
+        </activity>
+        <activity android:name=".EventBusActivity">
+        </activity>
+        <activity android:name=".EventBusReceiverActivity">
+        </activity>
+        <activity android:name=".ReceiverMainActivity">
 
         </activity>
     </application>

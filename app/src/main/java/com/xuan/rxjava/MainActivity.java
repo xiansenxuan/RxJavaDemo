@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.google.gson.reflect.TypeToken;
+import com.xuan.recyclerview.XuanRecyclerView;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -50,12 +51,21 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this,ReceiverActivity.class));
     }
 
+    @OnClick(R.id.tv_eventbus)void eventbus(){
+        startActivity(new Intent(this,EventBusActivity.class));
+    }
+
+    @OnClick(R.id.tv_eventbus_fragment)void eventbusfragment(){
+        startActivity(new Intent(this,ReceiverMainActivity.class));
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         ButterKnife.bind(this);
+
     }
 
 
